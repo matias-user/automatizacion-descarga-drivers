@@ -1,0 +1,70 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+ENV/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos de configuración locales
+*.env
+.env.*
+*.ini
+*.cfg
+*.local
+*.secret
+
+# Archivos de pruebas
+.coverage
+.pytest_cache/
+htmlcov/
+.cache/
+
+# --- SELENIUM ---
+# Chromedriver / Geckodriver / EdgeDriver descargados manualmente
+chromedriver*
+geckodriver*
+msedgedriver*
+
+# Carpeta generada por webdriver-manager (si se usa)
+~/.wdm/
+wdm/
+
+# Capturas de pantalla o videos de pruebas
+screenshots/
+reports/
+videos/
+
+# Archivos automáticos de Selenium
+selenium_logs/
+selenium-debug.log
+
+# --- EDITORES ---
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
+
+# --- POETRY / PIP ---
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
